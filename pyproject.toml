@@ -1,1 +1,22 @@
+[build-system]
+requires = ["flit_core>=3.8,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "tally_tax_override"
+version = "0.1.0"
+description = "Tally-compatible GST calculation override for ERPNext Sales Invoice"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "K95 FOODS PVT LTD", email = "contact@k95foods.com" }
+]
+license = { file = "license.txt" }
+dependencies = []
+
+[tool.bench]
+app_name = "tally_tax_override"
+
+[project.entry-points."frappe"]
+tally_tax_override = "tally_tax_override"
 
