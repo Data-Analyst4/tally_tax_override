@@ -4,11 +4,11 @@ from . import __version__ as app_version
 
 app_name = "tally_tax_override"
 app_title = "Tally Tax Override"
-app_publisher = "K95 FOODS PVT LTD"
+app_publisher = "Kunal Verma"
 app_description = "Override Sales Invoice taxes with Tally-compatible logic"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "contact@k95foods.com"
+app_email = "data-analyst@toyokombucha.com"
 app_license = "MIT"
 
 # Includes in <head>
