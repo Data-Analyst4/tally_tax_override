@@ -9,7 +9,7 @@ description = "Tally-compatible GST calculation override for ERPNext Sales Invoi
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
-    { name = "K95 FOODS PVT LTD", email = "contact@k95foods.com" }
+    { name = "Kunal Verma", email = "data-analyst@toyokombucha.com" }
 ]
 license = { file = "license.txt" }
 dependencies = []
